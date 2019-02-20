@@ -8,3 +8,13 @@ p {
 font-size: 35px;
 color: rgb(250, 250, 250);
   }
+
+#structure{
+    color: red;
+  }
+  #code{
+    color: brown;
+  }
+  #history{
+    color: yellow;
+  }
