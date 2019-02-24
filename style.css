@@ -5,7 +5,7 @@ p {
   color:rgb(43, 204, 204);
   }
   h2 {
-font-size: 35px;
+font-size: 30px;
 color: rgb(250, 250, 250);
   }
 
@@ -33,3 +33,60 @@ text-align: right;
 font-size: 25px;
 color: white;
 }
+.fltitle{
+  text-align: center;
+  font-size: 30px;
+  color: goldenrod;
+}
+.sndlevel{
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  color: goldenrod;
+}
+#ftext{
+  text-align: center;
+  font-style: oblique;
+  font-size: 25px;
+  color: rgba(255, 0, 55, 0.774);
+  text-shadow: 1px 1px 2px white, 0 0 3em red;
+  color: white;
+  }
+  .box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    background: rgb(182, 101, 101);
+  }
+  
+  hr {
+    float: left;
+    width: 100%;
+    border: 0;
+    height: 2px;
+    position: absolute;
+    top: calc(25% - 2px);
+    background: #DDDDDD;
+  }
+  
+  hr:nth-of-type(2) {top: calc(50% - 2px)}
+  hr:nth-of-type(3) {top: calc(75% - 2px)}
+  
+  .line_vert_1, .line_vert_2, .line_vert_3 {
+    float: left;
+    width: 2px;
+    border: 0;
+    height: 100%;
+    background: #DDDDDD;
+    margin: 0 0 0 calc(25% - 2px);
+  }
+  .line{
+    width: 100%;
+    height: 4px;
+    background: #333;
+    border: 0;
+    margin: 5px 0 5px 0;
+  }
