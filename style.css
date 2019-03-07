@@ -90,3 +90,13 @@ color: white;
     border: 0;
     margin: 5px 0 5px 0;
   }
+  .Allotment{
+    font-size: 25px;
+    color: aliceblue;
+  }
+  .coloredlist{
+    color: rgb(0, 0, 0);
+  }
+  li span{
+    color: #f80808;
+  }
